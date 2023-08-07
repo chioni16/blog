@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-uk'
+title = 'My Musings'
+theme = 'poison'
