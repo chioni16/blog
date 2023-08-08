@@ -1,4 +1,13 @@
-baseURL = 'http://example.org/'
+# baseURL = 'https://chioni16.github.io/blog/'
 languageCode = 'en-uk'
 title = 'My Musings'
+paginate = 10
 theme = 'poison'
+
+[params]
+    brand = "My Musings"
+    description = "Deep in the rabbit holes of Why and How"
+    dark_mode = true
+
+    github_url = "https://github.com/chioni16"
+    discord_url = "https://discordapp.com/users/696509358883864676"
