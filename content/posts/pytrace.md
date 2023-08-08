@@ -96,7 +96,7 @@ $4 = 'treasure'
 We have finally found our treasure!
 
 I have tried to summarise this wild pointer chase in this diagram. 
-![targets](/images/pytrace/pystructs.jpg)
+![Python structs](/images/pytrace/pystructs.jpg)
 
 ## Ptrace, my beloved
 Remember I said that attaching `gdb` to a running process stops it? Well, our code will have to do something similar. So, it may be useful to understand how debuggers like `gdb` do this. 

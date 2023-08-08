@@ -3,6 +3,7 @@ languageCode = 'en-uk'
 title = 'My Musings'
 paginate = 10
 theme = 'poison'
+canonifyURLs = true
 
 [params]
     brand = "My Musings"
