@@ -3,8 +3,6 @@ title: "Whatcha doin', Python?"
 date: 2023-08-06T15:57:14+05:30
 ---
 
-## Introduction
-
 Recently I have been using [Cheat Engine](https://www.cheatengine.org/) to look at processes' memory at runtime. This got me thinking if I could do the same without using Cheat Engine. I decided to write a program that could be attached to a running process and which could tell me was running at a given point in time. This sounds an awful lot like what profilers do, doesn't it?. I narrowed down the target processes to arbitrary python programs run using CPython, as I was somewhat familiar with CPython internals and wanted to avoid the complexity that comes with natively compiled programs. 
 
 ## A bit of background
