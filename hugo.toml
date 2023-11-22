@@ -5,9 +5,14 @@ paginate = 10
 theme = 'poison'
 canonifyURLs = true
 
+
 [params]
     brand = "My Musings"
-    description = "Deep in the rabbit holes of Why and How"
+    description = '''
+        Deep in the rabbit holes of Why and How
+    
+        Govardhan G D
+    '''
     dark_mode = true
 
     github_url = "https://github.com/chioni16"

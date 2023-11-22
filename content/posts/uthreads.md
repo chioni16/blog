@@ -6,7 +6,7 @@ date: 2023-11-02T12:50:55+05:30
 I use [Go](https://go.dev/) at my current job and recently I had to dive into the innards of go scheduler to understand a problem we were facing. 
 I learnt a lot during this time and decided to implement my own user space threads library that is inspired by golang, but with a generous number of simplifications.
 
-## Theory
+## Background
 There are loads of well written articles[^1] that explain the internal workings of Go runtime. So, I will limit my focus on the components that I have incorporated in my own implementation. 
 
 ### Threads
